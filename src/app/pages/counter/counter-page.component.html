@@ -1,0 +1,11 @@
+<div>
+  <h1>Counter: {{ counter }}</h1>
+  <h1>Counter Signal: {{ counterSignal() }}</h1>
+  <h2>Counter Component Page</h2>
+</div>
+<div>
+  <h3>Acciones</h3>
+  <button (click)="increaseBy(1)">+1</button>
+  <button (click)="increaseBy(-1)">-1</button>
+  <button (click)="reset()">reset</button>
+</div>
